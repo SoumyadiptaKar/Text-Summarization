@@ -107,3 +107,169 @@ Source-Age: 0
 [2024-03-08 11:17:33,973: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
 
 :]
+[2024-03-08 14:12:02,279: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-08 14:12:02,296: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-08 14:12:02,299: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-08 14:12:02,299: INFO: common: created directory at: artifacts:]
+[2024-03-08 14:12:02,303: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-08 14:13:16,965: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-08 14:13:16,968: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-08 14:13:16,971: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-08 14:13:16,973: INFO: common: created directory at: artifacts:]
+[2024-03-08 14:13:16,976: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-08 14:14:38,632: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-08 14:14:38,637: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-08 14:14:38,639: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-08 14:14:38,641: INFO: common: created directory at: artifacts:]
+[2024-03-08 14:14:38,643: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-08 14:15:22,857: ERROR: main: <urlopen error [WinError 10065] A socket operation was attempted to an unreachable host>:]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\urllib\request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "D:\Anaconda\lib\http\client.py", line 1285, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Anaconda\lib\http\client.py", line 1331, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Anaconda\lib\http\client.py", line 1280, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Anaconda\lib\http\client.py", line 1040, in _send_output
+    self.send(msg)
+  File "D:\Anaconda\lib\http\client.py", line 980, in send
+    self.connect()
+  File "D:\Anaconda\lib\http\client.py", line 1447, in connect
+    super().connect()
+  File "D:\Anaconda\lib\http\client.py", line 946, in connect
+    self.sock = self._create_connection(
+  File "D:\Anaconda\lib\socket.py", line 844, in create_connection
+    raise err
+  File "D:\Anaconda\lib\socket.py", line 832, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10065] A socket operation was attempted to an unreachable host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 8, in <module>
+    data_ingestion.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_01_Data_Ingestion.py", line 13, in main
+    data_ingestion.download_file()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\data_ingestion.py", line 15, in download_file
+    file_name, headers = requests.urlretrieve(
+  File "D:\Anaconda\lib\urllib\request.py", line 239, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+  File "D:\Anaconda\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "D:\Anaconda\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "D:\Anaconda\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "D:\Anaconda\lib\urllib\request.py", line 555, in error
+    result = self._call_chain(*args)
+  File "D:\Anaconda\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "D:\Anaconda\lib\urllib\request.py", line 747, in http_error_302
+    return self.parent.open(new, timeout=req.timeout)
+  File "D:\Anaconda\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "D:\Anaconda\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "D:\Anaconda\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "D:\Anaconda\lib\urllib\request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "D:\Anaconda\lib\urllib\request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10065] A socket operation was attempted to an unreachable host>
+[2024-03-08 14:15:42,283: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-08 14:15:42,287: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-08 14:15:42,289: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-08 14:15:42,290: INFO: common: created directory at: artifacts:]
+[2024-03-08 14:15:42,291: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-08 14:16:02,185: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded with following INFO :
+Connection: close
+Content-Length: 16939794
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "7a853373b924d946d5922aa86f9b22b1b688b8bf9c5bddf3fd911f98bda8c570"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C29A:1189F4:FC030:1486A5:65EAD03B
+Accept-Ranges: bytes
+Date: Fri, 08 Mar 2024 08:45:48 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10230-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1709887547.274780,VS0,VE1118
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1471b637d7a0932ab0b6790d48aeacb525a0e0e0
+Expires: Fri, 08 Mar 2024 08:50:48 GMT
+Source-Age: 1
+
+:]
+[2024-03-08 14:16:02,666: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-08 20:38:41,666: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-08 20:38:41,672: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-08 20:38:41,679: INFO: common: created directory at: artifacts:]
+[2024-03-08 20:39:42,764: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-08 20:39:42,769: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-08 20:39:42,775: INFO: common: created directory at: artifacts:]
+[2024-03-08 20:39:57,163: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-08 20:39:57,169: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-08 20:39:57,173: INFO: common: created directory at: artifacts:]
+[2024-03-08 20:39:57,175: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-08 20:56:50,885: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-08 20:56:50,895: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-08 20:56:50,898: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-08 20:56:50,900: INFO: common: created directory at: artifacts:]
+[2024-03-08 20:56:50,902: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-08 20:58:19,674: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-08 20:58:19,680: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-08 20:58:19,683: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-08 20:58:19,687: INFO: common: created directory at: artifacts:]
+[2024-03-08 20:58:19,690: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-08 20:59:51,424: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded with following INFO :
+Connection: close
+Content-Length: 16939794
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "7a853373b924d946d5922aa86f9b22b1b688b8bf9c5bddf3fd911f98bda8c570"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 941A:3BD89:2C2C8D:3913C5:65EB2EE9
+Accept-Ranges: bytes
+Date: Fri, 08 Mar 2024 15:29:47 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10225-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1709911786.959953,VS0,VE1123
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 3a1d36a9a94fc8eef0ab8a76a0c8918146f8b9a1
+Expires: Fri, 08 Mar 2024 15:34:47 GMT
+Source-Age: 1
+
+:]
+[2024-03-08 20:59:52,275: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-08 20:59:52,277: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-08 20:59:52,283: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-08 20:59:52,286: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-08 20:59:52,291: INFO: common: created directory at: artifacts:]
+[2024-03-08 20:59:52,294: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-08 20:59:52,320: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
