@@ -273,3 +273,122 @@ Source-Age: 1
 [2024-03-08 20:59:52,320: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
 
 :]
+[2024-03-09 09:16:32,281: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-09 09:16:32,282: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-09 09:16:33,684: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-09 19:54:06,985: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-09 19:54:07,008: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-09 19:54:07,015: INFO: common: created directory at: artifacts:]
+[2024-03-09 19:54:07,018: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-09 19:54:28,091: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-09 19:54:28,096: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-09 19:54:28,100: INFO: common: created directory at: artifacts:]
+[2024-03-09 19:54:28,103: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-09 20:16:34,313: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-09 20:16:34,313: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-09 20:16:35,582: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-09 20:16:36,629: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-09 20:16:36,631: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-09 20:16:36,631: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-09 20:16:36,638: INFO: common: created directory at: artifacts:]
+[2024-03-09 20:16:36,639: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-09 20:16:47,754: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded with following INFO :
+Connection: close
+Content-Length: 16939794
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "7a853373b924d946d5922aa86f9b22b1b688b8bf9c5bddf3fd911f98bda8c570"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 51E2:1246FC:1EC451:289485:65EC764D
+Accept-Ranges: bytes
+Date: Sat, 09 Mar 2024 14:46:39 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830030-CCU
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1709995599.502431,VS0,VE1333
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 92c29676acf61392e3be778dab377bd6e42d6be2
+Expires: Sat, 09 Mar 2024 14:51:39 GMT
+Source-Age: 1
+
+:]
+[2024-03-09 20:16:48,193: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-09 20:16:48,194: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-09 20:16:48,199: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-09 20:16:48,202: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-09 20:16:48,203: INFO: common: created directory at: artifacts:]
+[2024-03-09 20:16:48,206: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-09 20:16:48,234: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-09 20:16:48,235: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-09 20:16:48,241: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-09 20:16:48,243: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-09 20:16:48,244: INFO: common: created directory at: artifacts:]
+[2024-03-09 20:16:48,249: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-09 20:16:55,921: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-09 20:18:55,507: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-09 20:18:55,511: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-09 20:18:56,137: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-09 20:18:56,694: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-09 20:18:56,698: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-09 20:18:56,701: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-09 20:18:56,703: INFO: common: created directory at: artifacts:]
+[2024-03-09 20:18:56,704: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-09 20:19:02,691: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded with following INFO :
+Connection: close
+Content-Length: 16939794
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "7a853373b924d946d5922aa86f9b22b1b688b8bf9c5bddf3fd911f98bda8c570"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D9DC:28EE6:374090:48622E:65EC76DA
+Accept-Ranges: bytes
+Date: Sat, 09 Mar 2024 14:48:59 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10239-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1709995739.590213,VS0,VE1319
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 2e80f6450126f80b88ae900d703fae60141168b4
+Expires: Sat, 09 Mar 2024 14:53:59 GMT
+Source-Age: 1
+
+:]
+[2024-03-09 20:19:03,116: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-09 20:19:03,117: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-09 20:19:03,121: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-09 20:19:03,123: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-09 20:19:03,125: INFO: common: created directory at: artifacts:]
+[2024-03-09 20:19:03,125: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-09 20:19:03,135: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-09 20:19:03,136: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-09 20:19:03,141: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-09 20:19:03,143: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-09 20:19:03,145: INFO: common: created directory at: artifacts:]
+[2024-03-09 20:19:03,152: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-09 20:19:10,890: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
