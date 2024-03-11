@@ -594,3 +594,1687 @@ Traceback (most recent call last):
   File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 311, in _open
     self.f = open(self.path, mode=self.mode)
 OSError: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-03-10 10:12:32,396: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-10 10:12:32,398: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-10 10:12:33,226: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-10 11:30:04,986: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-10 11:30:04,999: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-10 11:30:05,003: INFO: common: created directory at: artifacts:]
+[2024-03-10 11:30:05,004: INFO: common: created directory at: artifacts/model_evaluation:]
+[2024-03-10 11:31:53,720: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-10 11:31:53,724: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-10 11:34:25,011: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-10 11:34:25,019: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-10 11:34:25,021: INFO: common: created directory at: artifacts:]
+[2024-03-10 11:34:25,023: INFO: common: created directory at: artifacts/model_evaluation:]
+[2024-03-10 11:35:14,570: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-10 11:35:14,573: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-10 11:35:14,573: INFO: common: created directory at: artifacts:]
+[2024-03-10 11:35:14,580: INFO: common: created directory at: artifacts/model_evaluation:]
+[2024-03-10 11:35:54,545: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-10 11:35:54,551: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-10 11:35:54,553: INFO: common: created directory at: artifacts:]
+[2024-03-10 11:35:54,555: INFO: common: created directory at: artifacts/model_evaluation:]
+[2024-03-10 11:37:05,115: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-10 11:37:05,122: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-10 11:37:05,126: INFO: common: created directory at: artifacts:]
+[2024-03-10 11:37:05,129: INFO: common: created directory at: artifacts/model_evaluation:]
+[2024-03-10 11:39:52,713: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-10 11:39:52,719: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-10 11:39:52,722: INFO: common: created directory at: artifacts:]
+[2024-03-10 11:39:52,724: INFO: common: created directory at: artifacts/model_evaluation:]
+[2024-03-11 09:17:30,779: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 09:17:30,810: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 09:17:30,819: INFO: common: created directory at: artifacts:]
+[2024-03-11 09:17:30,829: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 09:26:43,594: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 09:26:43,627: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 09:26:43,636: INFO: common: created directory at: artifacts:]
+[2024-03-11 09:26:43,645: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 09:35:35,223: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 09:35:35,223: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 09:35:35,799: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 09:35:40,371: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 09:35:40,375: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 09:35:40,378: INFO: common: created directory at: artifacts:]
+[2024-03-11 09:35:40,379: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 09:43:42,401: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 09:43:42,404: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 09:43:43,481: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 09:43:46,227: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 09:43:46,237: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 09:43:46,240: INFO: common: created directory at: artifacts:]
+[2024-03-11 09:43:46,243: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 09:44:31,604: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 09:44:31,608: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 09:44:31,610: INFO: common: created directory at: artifacts:]
+[2024-03-11 09:44:31,612: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 09:46:02,226: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 09:46:02,230: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 09:46:02,232: INFO: common: created directory at: artifacts:]
+[2024-03-11 09:46:02,234: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 09:47:20,775: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 09:47:20,780: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 09:47:20,784: INFO: common: created directory at: artifacts:]
+[2024-03-11 09:47:20,786: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 11:12:50,835: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 11:12:50,835: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 11:12:51,521: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 11:12:52,016: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 11:12:52,021: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 11:12:52,024: INFO: common: created directory at: artifacts:]
+[2024-03-11 11:12:52,026: INFO: common: created directory at: artifacts/model_evaluation:]
+[2024-03-11 11:18:02,232: INFO: rouge_scorer: Using default tokenizer.:]
+[2024-03-11 11:43:27,887: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 11:43:27,887: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 11:43:28,236: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 11:43:30,268: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 11:43:30,269: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 11:43:30,269: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 11:43:30,269: INFO: common: created directory at: artifacts:]
+[2024-03-11 11:43:30,269: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 11:43:30,269: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 11:43:30,536: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 11:43:30,536: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 11:43:30,540: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 11:43:30,542: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 11:43:30,543: INFO: common: created directory at: artifacts:]
+[2024-03-11 11:43:30,544: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 11:43:30,548: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 11:43:30,549: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 11:43:30,552: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 11:43:30,554: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 11:43:30,555: INFO: common: created directory at: artifacts:]
+[2024-03-11 11:43:30,556: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 11:43:33,602: ERROR: main: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow':]
+Traceback (most recent call last):
+  File "c:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 38, in <module>
+    data_transformation.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_03_Data_Transformation.py", line 13, in main
+    data_transformation.convert()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\data_transformation.py", line 31, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+  File "D:\Anaconda\lib\site-packages\datasets\dataset_dict.py", line 1297, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1536, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1560, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_writer.py", line 337, in __init__
+    self.stream = self._fs.open(fs_token_paths[2][0], "wb")
+  File "D:\Anaconda\lib\site-packages\fsspec\spec.py", line 1293, in open
+    f = self._open(
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 184, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 306, in __init__
+    self._open()
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 311, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-03-11 11:44:28,518: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 11:44:28,525: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 11:44:28,887: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 11:44:30,893: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 11:44:30,897: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 11:44:30,899: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 11:44:30,900: INFO: common: created directory at: artifacts:]
+[2024-03-11 11:44:30,902: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 11:44:30,903: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 11:44:31,128: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 11:44:31,129: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 11:44:31,132: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 11:44:31,134: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 11:44:31,135: INFO: common: created directory at: artifacts:]
+[2024-03-11 11:44:31,135: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 11:44:31,141: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 11:44:31,141: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 11:44:31,145: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 11:44:31,147: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 11:44:31,148: INFO: common: created directory at: artifacts:]
+[2024-03-11 11:44:31,149: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 11:44:33,397: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 11:44:33,398: INFO: main: >>>>>>> Model Trainer Stage Started <<<<<<<:]
+[2024-03-11 11:44:33,402: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 11:44:33,403: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 11:44:33,404: INFO: common: created directory at: artifacts:]
+[2024-03-11 11:44:33,404: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 11:44:49,711: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 11:44:49,712: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 11:44:50,195: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 11:44:52,678: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 11:44:52,684: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 11:44:52,687: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 11:44:52,688: INFO: common: created directory at: artifacts:]
+[2024-03-11 11:44:52,689: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 11:44:52,689: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 11:44:52,917: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 11:44:52,918: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 11:44:52,921: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 11:44:52,924: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 11:44:52,925: INFO: common: created directory at: artifacts:]
+[2024-03-11 11:44:52,926: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 11:44:52,931: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 11:44:52,932: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 11:44:52,935: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 11:44:52,938: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 11:44:52,939: INFO: common: created directory at: artifacts:]
+[2024-03-11 11:44:52,940: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 11:44:55,387: ERROR: main: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow':]
+Traceback (most recent call last):
+  File "c:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 38, in <module>
+    data_transformation.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_03_Data_Transformation.py", line 13, in main
+    data_transformation.convert()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\data_transformation.py", line 31, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+  File "D:\Anaconda\lib\site-packages\datasets\dataset_dict.py", line 1297, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1536, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1560, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_writer.py", line 337, in __init__
+    self.stream = self._fs.open(fs_token_paths[2][0], "wb")
+  File "D:\Anaconda\lib\site-packages\fsspec\spec.py", line 1293, in open
+    f = self._open(
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 184, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 306, in __init__
+    self._open()
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 311, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-03-11 11:49:49,419: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 11:49:49,419: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 11:49:49,830: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 11:49:52,097: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 11:49:52,100: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 11:49:52,102: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 11:49:52,102: INFO: common: created directory at: artifacts:]
+[2024-03-11 11:49:52,103: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 11:49:58,818: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded with following INFO :
+Connection: close
+Content-Length: 16939794
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "7a853373b924d946d5922aa86f9b22b1b688b8bf9c5bddf3fd911f98bda8c570"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7246:F6D39:35BEB9:489BF1:65EEA289
+Accept-Ranges: bytes
+Date: Mon, 11 Mar 2024 06:19:54 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10240-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1710137994.766321,VS0,VE1115
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 65b7be56a7a7348fb562ded367958a9bfc4c818f
+Expires: Mon, 11 Mar 2024 06:24:54 GMT
+Source-Age: 1
+
+:]
+[2024-03-11 11:49:59,072: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 11:49:59,072: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 11:49:59,077: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 11:49:59,079: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 11:49:59,080: INFO: common: created directory at: artifacts:]
+[2024-03-11 11:49:59,081: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 11:49:59,084: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 11:49:59,085: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 11:49:59,088: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 11:49:59,090: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 11:49:59,091: INFO: common: created directory at: artifacts:]
+[2024-03-11 11:49:59,095: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 11:50:04,771: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 11:50:04,772: INFO: main: >>>>>>> Model Trainer Stage Started <<<<<<<:]
+[2024-03-11 11:50:04,775: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 11:50:04,777: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 11:50:04,778: INFO: common: created directory at: artifacts:]
+[2024-03-11 11:50:04,779: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 11:50:18,042: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 11:50:18,043: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 11:50:18,541: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 11:50:20,866: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 11:50:20,870: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 11:50:20,872: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 11:50:20,873: INFO: common: created directory at: artifacts:]
+[2024-03-11 11:50:20,874: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 11:50:20,874: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 11:50:21,102: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 11:50:21,103: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 11:50:21,107: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 11:50:21,109: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 11:50:21,110: INFO: common: created directory at: artifacts:]
+[2024-03-11 11:50:21,111: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 11:50:21,114: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 11:50:21,115: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 11:50:21,119: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 11:50:21,121: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 11:50:21,121: INFO: common: created directory at: artifacts:]
+[2024-03-11 11:50:21,122: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 11:50:23,784: ERROR: main: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow':]
+Traceback (most recent call last):
+  File "c:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 38, in <module>
+    data_transformation.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_03_Data_Transformation.py", line 13, in main
+    data_transformation.convert()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\data_transformation.py", line 31, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+  File "D:\Anaconda\lib\site-packages\datasets\dataset_dict.py", line 1297, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1536, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1560, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_writer.py", line 337, in __init__
+    self.stream = self._fs.open(fs_token_paths[2][0], "wb")
+  File "D:\Anaconda\lib\site-packages\fsspec\spec.py", line 1293, in open
+    f = self._open(
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 184, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 306, in __init__
+    self._open()
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 311, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-03-11 11:56:33,781: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 11:56:33,783: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 11:56:34,304: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 11:56:34,829: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 11:56:34,832: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 11:56:34,834: INFO: common: created directory at: artifacts:]
+[2024-03-11 11:56:34,836: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 12:08:30,155: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 12:08:30,158: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 12:08:30,768: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 12:08:31,332: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:08:31,338: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:08:31,339: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:08:31,344: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 12:09:10,161: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:09:10,168: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:09:10,173: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:09:10,178: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 12:11:43,312: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 12:11:43,313: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 12:11:43,827: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 12:11:47,317: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 12:11:47,322: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:11:47,324: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:11:47,327: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:11:47,328: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 12:11:53,054: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded with following INFO :
+Connection: close
+Content-Length: 16939794
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "7a853373b924d946d5922aa86f9b22b1b688b8bf9c5bddf3fd911f98bda8c570"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7246:F6D39:35BEB9:489BF1:65EEA289
+Accept-Ranges: bytes
+Date: Mon, 11 Mar 2024 06:41:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10237-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1710139309.013190,VS0,VE312
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1b4e9be1878fc5a76b01a32d800acba0fe2a0d42
+Expires: Mon, 11 Mar 2024 06:46:49 GMT
+Source-Age: 0
+
+:]
+[2024-03-11 12:11:53,495: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:11:53,496: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 12:11:53,502: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:11:53,505: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:11:53,507: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:11:53,508: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 12:11:53,516: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:11:53,518: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 12:11:53,526: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:11:53,529: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:11:53,532: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:11:53,536: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 12:12:01,823: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:12:01,824: INFO: main: >>>>>>> Model Trainer Stage Started <<<<<<<:]
+[2024-03-11 12:12:01,830: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:12:01,833: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:12:01,834: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:12:01,835: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 12:12:18,788: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 12:12:18,789: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 12:12:19,313: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 12:12:22,622: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 12:12:22,628: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:12:22,633: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:12:22,634: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:12:22,636: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 12:12:22,637: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 12:12:23,004: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:12:23,005: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 12:12:23,012: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:12:23,015: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:12:23,017: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:12:23,018: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 12:12:23,024: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:12:23,025: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 12:12:23,030: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:12:23,033: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:12:23,035: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:12:23,036: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 12:12:27,211: ERROR: main: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow':]
+Traceback (most recent call last):
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 38, in <module>
+    data_transformation.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_03_Data_Transformation.py", line 13, in main
+    data_transformation.convert()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\data_transformation.py", line 31, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+  File "D:\Anaconda\lib\site-packages\datasets\dataset_dict.py", line 1297, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1536, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1560, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_writer.py", line 337, in __init__
+    self.stream = self._fs.open(fs_token_paths[2][0], "wb")
+  File "D:\Anaconda\lib\site-packages\fsspec\spec.py", line 1293, in open
+    f = self._open(
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 184, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 306, in __init__
+    self._open()
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 311, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-03-11 12:18:59,283: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 12:18:59,284: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 12:18:59,757: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 12:19:02,286: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 12:19:02,296: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:19:02,306: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:19:02,306: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:19:02,308: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 12:19:02,308: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 12:19:02,595: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:19:02,595: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 12:19:02,599: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:19:02,602: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:19:02,602: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:19:02,606: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 12:19:02,622: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:19:02,622: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 12:19:02,628: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:19:02,630: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:19:02,630: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:19:02,630: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 12:19:06,786: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:19:06,789: INFO: main: >>>>>>> Model Trainer Stage Started <<<<<<<:]
+[2024-03-11 12:19:06,793: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:19:06,798: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:19:06,800: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:19:06,801: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 12:19:25,055: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 12:19:25,056: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 12:19:25,637: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 12:19:29,060: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 12:19:29,066: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:19:29,070: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:19:29,071: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:19:29,073: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 12:19:29,075: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 12:19:29,454: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:19:29,454: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 12:19:29,459: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:19:29,464: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:19:29,465: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:19:29,465: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 12:19:29,470: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:19:29,471: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 12:19:29,479: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:19:29,481: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:19:29,481: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:19:29,483: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 12:19:32,665: ERROR: main: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow':]
+Traceback (most recent call last):
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 38, in <module>
+    data_transformation.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_03_Data_Transformation.py", line 13, in main
+    data_transformation.convert()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\data_transformation.py", line 31, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+  File "D:\Anaconda\lib\site-packages\datasets\dataset_dict.py", line 1297, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1536, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1560, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_writer.py", line 337, in __init__
+    self.stream = self._fs.open(fs_token_paths[2][0], "wb")
+  File "D:\Anaconda\lib\site-packages\fsspec\spec.py", line 1293, in open
+    f = self._open(
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 184, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 306, in __init__
+    self._open()
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 311, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-03-11 12:27:33,976: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 12:27:33,976: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 12:27:34,504: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 12:27:37,691: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 12:27:37,696: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:27:37,699: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:27:37,701: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:27:37,702: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 12:27:37,703: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 12:27:38,074: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:27:38,075: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 12:27:38,081: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:27:38,085: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:27:38,086: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:27:38,087: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 12:27:38,094: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:27:38,096: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 12:27:38,103: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:27:38,108: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:27:38,110: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:27:38,112: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 12:27:41,873: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:27:41,874: INFO: main: >>>>>>> Model Trainer Stage Started <<<<<<<:]
+[2024-03-11 12:27:41,881: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:27:41,884: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:27:41,886: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:27:41,887: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 12:27:56,376: ERROR: main: prefetch_factor option could only be specified in multiprocessing.let num_workers > 0 to enable multiprocessing.:]
+Traceback (most recent call last):
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 50, in <module>
+    model_trainer.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_04_Model_Trainer.py", line 13, in main
+    model_trainer_config.train()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\model_trainer.py", line 43, in train
+    trainer.train()
+  File "D:\Anaconda\lib\site-packages\transformers\trainer.py", line 1624, in train
+    return inner_training_loop(
+  File "D:\Anaconda\lib\site-packages\transformers\trainer.py", line 1653, in _inner_training_loop
+    train_dataloader = self.get_train_dataloader()
+  File "D:\Anaconda\lib\site-packages\transformers\trainer.py", line 852, in get_train_dataloader
+    return self.accelerator.prepare(DataLoader(train_dataset, **dataloader_params))
+  File "D:\Anaconda\lib\site-packages\torch\utils\data\dataloader.py", line 236, in __init__
+    raise ValueError('prefetch_factor option could only be specified in multiprocessing.'
+ValueError: prefetch_factor option could only be specified in multiprocessing.let num_workers > 0 to enable multiprocessing.
+[2024-03-11 12:28:21,327: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 12:28:21,328: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 12:28:22,046: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 12:28:25,504: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 12:28:25,510: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:28:25,513: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:28:25,514: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:28:25,516: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 12:28:25,518: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 12:28:25,892: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:28:25,893: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 12:28:25,897: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:28:25,902: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:28:25,903: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:28:25,904: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 12:28:25,912: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:28:25,913: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 12:28:25,918: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:28:25,922: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:28:25,923: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:28:25,926: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 12:28:29,622: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:28:29,626: INFO: main: >>>>>>> Model Trainer Stage Started <<<<<<<:]
+[2024-03-11 12:28:29,628: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:28:29,633: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:28:29,636: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:28:29,638: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 12:28:46,136: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 12:28:46,137: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 12:28:46,690: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 12:28:50,087: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 12:28:50,093: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:28:50,097: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:28:50,099: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:28:50,100: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 12:28:50,102: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 12:28:50,476: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:28:50,477: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 12:28:50,483: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:28:50,487: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:28:50,488: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:28:50,489: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 12:28:50,499: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:28:50,500: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 12:28:50,506: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:28:50,512: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:28:50,513: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:28:50,516: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 12:28:54,150: ERROR: main: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow':]
+Traceback (most recent call last):
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 38, in <module>
+    data_transformation.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_03_Data_Transformation.py", line 13, in main
+    data_transformation.convert()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\data_transformation.py", line 31, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+  File "D:\Anaconda\lib\site-packages\datasets\dataset_dict.py", line 1297, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1536, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1560, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_writer.py", line 337, in __init__
+    self.stream = self._fs.open(fs_token_paths[2][0], "wb")
+  File "D:\Anaconda\lib\site-packages\fsspec\spec.py", line 1293, in open
+    f = self._open(
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 184, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 306, in __init__
+    self._open()
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 311, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-03-11 12:31:12,203: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 12:31:12,204: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 12:31:12,720: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 12:31:15,749: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 12:31:15,756: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:31:15,762: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:31:15,763: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:31:15,764: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 12:31:15,766: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 12:31:16,183: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:31:16,184: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 12:31:16,189: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:31:16,192: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:31:16,193: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:31:16,194: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 12:31:16,200: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:31:16,202: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 12:31:16,210: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:31:16,214: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:31:16,215: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:31:16,216: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 12:31:19,883: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:31:19,884: INFO: main: >>>>>>> Model Trainer Stage Started <<<<<<<:]
+[2024-03-11 12:31:19,890: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:31:19,894: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:31:19,896: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:31:19,897: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 12:31:36,419: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 12:31:36,419: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 12:31:37,011: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 12:31:40,548: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 12:31:40,557: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:31:40,561: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:31:40,561: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:31:40,561: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 12:31:40,561: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 12:31:40,940: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:31:40,940: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 12:31:40,946: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:31:40,947: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:31:40,951: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:31:40,951: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 12:31:40,959: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 12:31:40,960: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 12:31:40,966: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 12:31:40,968: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 12:31:40,971: INFO: common: created directory at: artifacts:]
+[2024-03-11 12:31:40,972: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 12:31:44,499: ERROR: main: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow':]
+Traceback (most recent call last):
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 38, in <module>
+    data_transformation.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_03_Data_Transformation.py", line 13, in main
+    data_transformation.convert()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\data_transformation.py", line 31, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+  File "D:\Anaconda\lib\site-packages\datasets\dataset_dict.py", line 1297, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1536, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1560, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_writer.py", line 337, in __init__
+    self.stream = self._fs.open(fs_token_paths[2][0], "wb")
+  File "D:\Anaconda\lib\site-packages\fsspec\spec.py", line 1293, in open
+    f = self._open(
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 184, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 306, in __init__
+    self._open()
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 311, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-03-11 20:26:18,828: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 20:26:18,829: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 20:26:19,761: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 20:26:26,443: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 20:26:26,457: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 20:26:26,467: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 20:26:26,468: INFO: common: created directory at: artifacts:]
+[2024-03-11 20:26:26,469: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 20:26:26,470: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 20:26:26,832: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 20:26:26,833: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 20:26:26,838: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 20:26:26,843: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 20:26:26,844: INFO: common: created directory at: artifacts:]
+[2024-03-11 20:26:26,846: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 20:26:26,853: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 20:26:26,856: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 20:26:26,860: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 20:26:26,863: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 20:26:26,865: INFO: common: created directory at: artifacts:]
+[2024-03-11 20:26:26,867: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 20:26:30,565: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 20:26:30,566: INFO: main: >>>>>>> Model Trainer Stage Started <<<<<<<:]
+[2024-03-11 20:26:30,573: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 20:26:30,577: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 20:26:30,578: INFO: common: created directory at: artifacts:]
+[2024-03-11 20:26:30,580: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 20:26:47,852: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 20:26:47,852: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 20:26:48,331: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 20:26:51,956: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 20:26:51,964: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 20:26:51,968: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 20:26:51,971: INFO: common: created directory at: artifacts:]
+[2024-03-11 20:26:51,973: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 20:26:51,974: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 20:26:52,351: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 20:26:52,352: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 20:26:52,357: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 20:26:52,360: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 20:26:52,361: INFO: common: created directory at: artifacts:]
+[2024-03-11 20:26:52,363: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 20:26:52,370: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 20:26:52,372: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 20:26:52,378: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 20:26:52,381: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 20:26:52,383: INFO: common: created directory at: artifacts:]
+[2024-03-11 20:26:52,384: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 20:26:55,743: ERROR: main: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow':]
+Traceback (most recent call last):
+  File "c:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 38, in <module>
+    data_transformation.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_03_Data_Transformation.py", line 13, in main
+    data_transformation.convert()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\data_transformation.py", line 31, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+  File "D:\Anaconda\lib\site-packages\datasets\dataset_dict.py", line 1297, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1536, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1560, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_writer.py", line 337, in __init__
+    self.stream = self._fs.open(fs_token_paths[2][0], "wb")
+  File "D:\Anaconda\lib\site-packages\fsspec\spec.py", line 1293, in open
+    f = self._open(
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 184, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 306, in __init__
+    self._open()
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 311, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-03-11 20:29:07,052: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 20:29:07,053: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 20:29:07,676: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 20:29:11,252: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 20:29:11,257: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 20:29:11,261: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 20:29:11,262: INFO: common: created directory at: artifacts:]
+[2024-03-11 20:29:11,263: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 20:29:11,264: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 20:29:11,595: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 20:29:11,599: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 20:29:11,600: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 20:29:11,607: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 20:29:11,607: INFO: common: created directory at: artifacts:]
+[2024-03-11 20:29:11,607: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 20:29:11,623: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 20:29:11,623: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 20:29:11,631: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 20:29:11,640: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 20:29:11,640: INFO: common: created directory at: artifacts:]
+[2024-03-11 20:29:11,642: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 20:29:14,619: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 20:29:14,621: INFO: main: >>>>>>> Model Evaluation Stage Started <<<<<<<:]
+[2024-03-11 20:29:14,628: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 20:29:14,630: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 20:29:14,632: INFO: common: created directory at: artifacts:]
+[2024-03-11 20:29:14,636: INFO: common: created directory at: artifacts/model_evaluation:]
+[2024-03-11 20:29:14,637: ERROR: main: Incorrect path_or_model_id: 'artifacts/model_trainer/tokenizer'. Please provide either the path to a local folder or the repo_id of a model on the Hub.:]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\transformers\utils\hub.py", line 398, in cached_file
+    resolved_file = hf_hub_download(
+  File "D:\Anaconda\lib\site-packages\huggingface_hub\utils\_validators.py", line 110, in _inner_fn
+    validate_repo_id(arg_value)
+  File "D:\Anaconda\lib\site-packages\huggingface_hub\utils\_validators.py", line 158, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.utils._validators.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'artifacts/model_trainer/tokenizer'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 63, in <module>
+    model_evaluation.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_05_Model_Evaluation.py", line 13, in main
+    model_evaluation_config.evaluate()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\model_evaluation.py", line 54, in evaluate
+    tokenizer = AutoTokenizer.from_pretrained(self.config.tokenizer_path)
+  File "D:\Anaconda\lib\site-packages\transformers\models\auto\tokenization_auto.py", line 767, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+  File "D:\Anaconda\lib\site-packages\transformers\models\auto\tokenization_auto.py", line 600, in get_tokenizer_config
+    resolved_config_file = cached_file(
+  File "D:\Anaconda\lib\site-packages\transformers\utils\hub.py", line 462, in cached_file
+    raise EnvironmentError(
+OSError: Incorrect path_or_model_id: 'artifacts/model_trainer/tokenizer'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+[2024-03-11 20:30:36,182: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 20:30:36,183: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 20:30:36,737: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 20:30:39,883: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 20:30:39,889: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 20:30:39,893: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 20:30:39,894: INFO: common: created directory at: artifacts:]
+[2024-03-11 20:30:39,896: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 20:30:39,897: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 20:30:40,294: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 20:30:40,295: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 20:30:40,301: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 20:30:40,304: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 20:30:40,306: INFO: common: created directory at: artifacts:]
+[2024-03-11 20:30:40,307: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 20:30:40,317: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 20:30:40,319: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 20:30:40,325: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 20:30:40,328: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 20:30:40,330: INFO: common: created directory at: artifacts:]
+[2024-03-11 20:30:40,332: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 20:30:43,773: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 20:30:43,775: INFO: main: >>>>>>> Model Evaluation Stage Started <<<<<<<:]
+[2024-03-11 20:30:43,781: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 20:30:43,786: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 20:30:43,787: INFO: common: created directory at: artifacts:]
+[2024-03-11 20:30:43,788: INFO: common: created directory at: artifacts/model_evaluation:]
+[2024-03-11 20:35:47,613: INFO: rouge_scorer: Using default tokenizer.:]
+[2024-03-11 20:35:47,822: INFO: main: >>>>>>> Model Evaluation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:00:51,891: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:00:51,891: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:00:52,510: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:00:55,988: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 21:00:55,993: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:00:55,997: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:00:55,998: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:00:56,000: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 21:00:56,001: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 21:00:56,379: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:00:56,380: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 21:00:56,384: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:00:56,388: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:00:56,389: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:00:56,391: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 21:00:56,398: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:00:56,400: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 21:00:56,405: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:00:56,408: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:00:56,410: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:00:56,411: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 21:00:59,781: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:00:59,782: INFO: main: >>>>>>> Model Trainer Stage Started <<<<<<<:]
+[2024-03-11 21:00:59,789: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:00:59,791: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:00:59,793: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:00:59,794: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 21:01:16,403: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:01:16,404: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:01:17,009: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:01:20,438: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 21:01:20,443: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:01:20,447: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:01:20,448: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:01:20,449: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 21:01:20,452: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 21:01:20,826: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:01:20,827: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 21:01:20,832: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:01:20,835: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:01:20,837: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:01:20,838: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 21:01:20,844: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:01:20,846: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 21:01:20,853: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:01:20,857: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:01:20,858: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:01:20,861: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 21:01:24,127: ERROR: main: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow':]
+Traceback (most recent call last):
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 38, in <module>
+    data_transformation.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_03_Data_Transformation.py", line 13, in main
+    data_transformation.convert()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\data_transformation.py", line 31, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+  File "D:\Anaconda\lib\site-packages\datasets\dataset_dict.py", line 1297, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1536, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1560, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_writer.py", line 337, in __init__
+    self.stream = self._fs.open(fs_token_paths[2][0], "wb")
+  File "D:\Anaconda\lib\site-packages\fsspec\spec.py", line 1293, in open
+    f = self._open(
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 184, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 306, in __init__
+    self._open()
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 311, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-03-11 21:04:09,308: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:04:09,308: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:04:09,765: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:04:12,502: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 21:04:12,506: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:04:12,510: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:04:12,510: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:04:12,512: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 21:04:12,514: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 21:04:12,805: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:04:12,807: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 21:04:12,813: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:04:12,815: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:04:12,816: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:04:12,817: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 21:04:12,823: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:04:12,823: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 21:04:12,829: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:04:12,829: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:04:12,829: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:04:12,834: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 21:04:15,739: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:04:15,740: INFO: main: >>>>>>> Model Trainer Stage Started <<<<<<<:]
+[2024-03-11 21:04:15,745: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:04:15,748: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:04:15,749: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:04:15,750: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 21:04:31,213: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:04:31,214: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:04:31,746: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:04:35,174: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 21:04:35,179: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:04:35,183: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:04:35,184: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:04:35,186: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 21:04:35,187: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 21:04:35,562: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:04:35,563: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 21:04:35,569: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:04:35,573: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:04:35,575: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:04:35,576: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 21:04:35,582: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:04:35,582: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 21:04:35,589: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:04:35,593: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:04:35,595: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:04:35,596: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 21:04:39,493: ERROR: main: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow':]
+Traceback (most recent call last):
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 38, in <module>
+    data_transformation.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_03_Data_Transformation.py", line 13, in main
+    data_transformation.convert()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\data_transformation.py", line 31, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+  File "D:\Anaconda\lib\site-packages\datasets\dataset_dict.py", line 1297, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1536, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1560, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_writer.py", line 337, in __init__
+    self.stream = self._fs.open(fs_token_paths[2][0], "wb")
+  File "D:\Anaconda\lib\site-packages\fsspec\spec.py", line 1293, in open
+    f = self._open(
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 184, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 306, in __init__
+    self._open()
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 311, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-03-11 21:05:02,489: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:05:02,489: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:05:02,985: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:05:05,641: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 21:05:05,646: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:05:05,649: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:05:05,651: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:05:05,652: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 21:05:05,654: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 21:05:05,959: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:05:05,960: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 21:05:05,963: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:05:05,967: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:05:05,968: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:05:05,969: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 21:05:05,974: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:05:05,975: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 21:05:05,980: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:05:05,985: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:05:05,986: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:05:05,988: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 21:05:09,121: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:05:09,121: INFO: main: >>>>>>> Model Trainer Stage Started <<<<<<<:]
+[2024-03-11 21:05:09,121: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:05:09,129: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:05:09,129: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:05:09,129: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 21:05:25,436: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:05:25,436: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:05:26,138: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:05:29,946: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 21:05:29,952: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:05:29,956: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:05:29,958: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:05:29,960: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 21:05:29,960: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 21:05:30,335: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:05:30,336: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 21:05:30,341: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:05:30,345: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:05:30,346: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:05:30,346: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 21:05:30,354: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:05:30,355: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 21:05:30,361: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:05:30,364: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:05:30,365: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:05:30,366: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 21:05:33,651: ERROR: main: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow':]
+Traceback (most recent call last):
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 38, in <module>
+    data_transformation.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_03_Data_Transformation.py", line 13, in main
+    data_transformation.convert()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\data_transformation.py", line 31, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+  File "D:\Anaconda\lib\site-packages\datasets\dataset_dict.py", line 1297, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1536, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1560, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_writer.py", line 337, in __init__
+    self.stream = self._fs.open(fs_token_paths[2][0], "wb")
+  File "D:\Anaconda\lib\site-packages\fsspec\spec.py", line 1293, in open
+    f = self._open(
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 184, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 306, in __init__
+    self._open()
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 311, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-03-11 21:05:47,095: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:05:47,095: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:05:47,620: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:05:51,032: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 21:05:51,040: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:05:51,049: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:05:51,051: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:05:51,052: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 21:05:51,053: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 21:05:51,420: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:05:51,420: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 21:05:51,420: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:05:51,430: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:05:51,431: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:05:51,432: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 21:05:51,439: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:05:51,439: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 21:05:51,446: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:05:51,446: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:05:51,446: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:05:51,446: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 21:05:54,821: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:05:54,822: INFO: main: >>>>>>> Model Trainer Stage Started <<<<<<<:]
+[2024-03-11 21:05:54,826: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:05:54,830: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:05:54,831: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:05:54,831: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 21:06:10,635: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:06:10,635: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:06:11,132: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:06:14,497: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 21:06:14,503: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:06:14,506: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:06:14,507: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:06:14,509: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 21:06:14,511: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 21:06:14,887: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:06:14,888: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 21:06:14,893: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:06:14,897: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:06:14,898: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:06:14,899: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 21:06:14,905: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:06:14,906: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 21:06:14,911: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:06:14,915: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:06:14,917: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:06:14,917: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 21:06:18,165: ERROR: main: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow':]
+Traceback (most recent call last):
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 38, in <module>
+    data_transformation.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_03_Data_Transformation.py", line 13, in main
+    data_transformation.convert()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\data_transformation.py", line 31, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+  File "D:\Anaconda\lib\site-packages\datasets\dataset_dict.py", line 1297, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1536, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1560, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_writer.py", line 337, in __init__
+    self.stream = self._fs.open(fs_token_paths[2][0], "wb")
+  File "D:\Anaconda\lib\site-packages\fsspec\spec.py", line 1293, in open
+    f = self._open(
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 184, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 306, in __init__
+    self._open()
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 311, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-03-11 21:06:57,464: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:06:57,464: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:06:57,980: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:07:01,140: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 21:07:01,151: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:07:01,157: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:07:01,158: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:07:01,160: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 21:07:01,160: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 21:07:01,545: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:07:01,545: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 21:07:01,545: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:07:01,557: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:07:01,557: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:07:01,557: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 21:07:01,565: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:07:01,569: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 21:07:01,573: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:07:01,579: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:07:01,582: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:07:01,585: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 21:07:05,125: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:07:05,132: INFO: main: >>>>>>> Model Trainer Stage Started <<<<<<<:]
+[2024-03-11 21:07:05,137: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:07:05,140: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:07:05,140: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:07:05,140: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 21:07:26,342: ERROR: main: prefetch_factor option could only be specified in multiprocessing.let num_workers > 0 to enable multiprocessing.:]
+Traceback (most recent call last):
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 50, in <module>
+    model_trainer.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_04_Model_Trainer.py", line 13, in main
+    model_trainer_config.train()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\model_trainer.py", line 45, in train
+    trainer.train()
+  File "D:\Anaconda\lib\site-packages\transformers\trainer.py", line 1624, in train
+    return inner_training_loop(
+  File "D:\Anaconda\lib\site-packages\transformers\trainer.py", line 1653, in _inner_training_loop
+    train_dataloader = self.get_train_dataloader()
+  File "D:\Anaconda\lib\site-packages\transformers\trainer.py", line 852, in get_train_dataloader
+    return self.accelerator.prepare(DataLoader(train_dataset, **dataloader_params))
+  File "D:\Anaconda\lib\site-packages\torch\utils\data\dataloader.py", line 236, in __init__
+    raise ValueError('prefetch_factor option could only be specified in multiprocessing.'
+ValueError: prefetch_factor option could only be specified in multiprocessing.let num_workers > 0 to enable multiprocessing.
+[2024-03-11 21:07:48,547: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:07:48,547: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:07:49,518: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:07:55,577: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 21:07:55,586: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:07:55,593: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:07:55,596: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:07:55,597: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 21:07:55,598: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 21:07:56,245: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:07:56,246: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 21:07:56,255: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:07:56,260: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:07:56,262: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:07:56,263: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 21:07:56,270: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:07:56,271: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 21:07:56,280: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:07:56,284: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:07:56,286: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:07:56,288: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 21:08:02,073: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:08:02,075: INFO: main: >>>>>>> Model Trainer Stage Started <<<<<<<:]
+[2024-03-11 21:08:02,084: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:08:02,089: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:08:02,091: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:08:02,092: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 21:08:24,570: ERROR: main: '>' not supported between instances of 'NoneType' and 'int':]
+Traceback (most recent call last):
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 50, in <module>
+    model_trainer.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_04_Model_Trainer.py", line 13, in main
+    model_trainer_config.train()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\model_trainer.py", line 45, in train
+    trainer.train()
+  File "D:\Anaconda\lib\site-packages\transformers\trainer.py", line 1624, in train
+    return inner_training_loop(
+  File "D:\Anaconda\lib\site-packages\transformers\trainer.py", line 1653, in _inner_training_loop
+    train_dataloader = self.get_train_dataloader()
+  File "D:\Anaconda\lib\site-packages\transformers\trainer.py", line 852, in get_train_dataloader
+    return self.accelerator.prepare(DataLoader(train_dataset, **dataloader_params))
+  File "D:\Anaconda\lib\site-packages\torch\utils\data\dataloader.py", line 238, in __init__
+    assert prefetch_factor > 0
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+[2024-03-11 21:09:02,961: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:09:02,962: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:09:03,968: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:09:10,230: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 21:09:10,241: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:09:10,248: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:09:10,250: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:09:10,252: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 21:09:10,253: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 21:09:10,910: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:09:10,911: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 21:09:10,920: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:09:10,926: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:09:10,929: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:09:10,930: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 21:09:10,944: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:09:10,946: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 21:09:10,957: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:09:10,963: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:09:10,965: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:09:10,968: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 21:09:16,328: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:09:16,329: INFO: main: >>>>>>> Model Trainer Stage Started <<<<<<<:]
+[2024-03-11 21:09:16,339: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:09:16,345: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:09:16,348: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:09:16,350: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 21:09:40,414: ERROR: main: '>' not supported between instances of 'NoneType' and 'int':]
+Traceback (most recent call last):
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 50, in <module>
+    model_trainer.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_04_Model_Trainer.py", line 13, in main
+    model_trainer_config.train()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\model_trainer.py", line 45, in train
+    trainer.train()
+  File "D:\Anaconda\lib\site-packages\transformers\trainer.py", line 1624, in train
+    return inner_training_loop(
+  File "D:\Anaconda\lib\site-packages\transformers\trainer.py", line 1653, in _inner_training_loop
+    train_dataloader = self.get_train_dataloader()
+  File "D:\Anaconda\lib\site-packages\transformers\trainer.py", line 852, in get_train_dataloader
+    return self.accelerator.prepare(DataLoader(train_dataset, **dataloader_params))
+  File "D:\Anaconda\lib\site-packages\torch\utils\data\dataloader.py", line 238, in __init__
+    assert prefetch_factor > 0
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+[2024-03-11 21:09:57,910: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:09:57,910: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:09:58,833: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:10:04,658: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 21:10:04,668: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:10:04,675: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:10:04,677: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:10:04,679: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 21:10:04,681: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 21:10:05,318: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:10:05,319: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 21:10:05,328: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:10:05,334: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:10:05,336: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:10:05,338: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 21:10:05,348: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:10:05,349: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 21:10:05,358: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:10:05,365: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:10:05,367: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:10:05,370: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 21:10:10,832: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:10:10,833: INFO: main: >>>>>>> Model Trainer Stage Started <<<<<<<:]
+[2024-03-11 21:10:10,844: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:10:10,850: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:10:10,852: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:10:10,854: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 21:10:40,787: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:10:40,788: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:10:41,716: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:10:47,852: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 21:10:47,863: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:10:47,869: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:10:47,871: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:10:47,874: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 21:10:47,876: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 21:10:48,521: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:10:48,524: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 21:10:48,534: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:10:48,540: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:10:48,542: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:10:48,544: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 21:10:48,555: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:10:48,556: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 21:10:48,569: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:10:48,574: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:10:48,577: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:10:48,578: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 21:10:54,198: ERROR: main: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow':]
+Traceback (most recent call last):
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 38, in <module>
+    data_transformation.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_03_Data_Transformation.py", line 13, in main
+    data_transformation.convert()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\data_transformation.py", line 31, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+  File "D:\Anaconda\lib\site-packages\datasets\dataset_dict.py", line 1297, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1536, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1560, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_writer.py", line 337, in __init__
+    self.stream = self._fs.open(fs_token_paths[2][0], "wb")
+  File "D:\Anaconda\lib\site-packages\fsspec\spec.py", line 1293, in open
+    f = self._open(
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 184, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 306, in __init__
+    self._open()
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 311, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-03-11 21:19:17,533: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:19:17,534: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:19:18,356: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:19:23,425: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 21:19:23,432: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:19:23,436: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:19:23,438: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:19:23,439: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 21:19:23,440: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 21:19:24,089: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:19:24,091: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 21:19:24,099: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:19:24,104: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:19:24,108: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:19:24,110: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 21:19:24,120: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:19:24,128: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 21:19:24,140: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:19:24,145: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:19:24,147: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:19:24,149: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 21:19:29,549: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:19:29,551: INFO: main: >>>>>>> Model Trainer Stage Started <<<<<<<:]
+[2024-03-11 21:19:29,560: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:19:29,565: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:19:29,567: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:19:29,568: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 21:20:01,156: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:20:01,157: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:20:02,250: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:20:07,895: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 21:20:07,907: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:20:07,913: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:20:07,917: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:20:07,919: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 21:20:07,920: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 21:20:08,552: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:20:08,552: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 21:20:08,563: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:20:08,565: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:20:08,571: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:20:08,575: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 21:20:08,584: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:20:08,584: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 21:20:08,596: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:20:08,599: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:20:08,603: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:20:08,603: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 21:20:13,863: ERROR: main: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow':]
+Traceback (most recent call last):
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 38, in <module>
+    data_transformation.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_03_Data_Transformation.py", line 13, in main
+    data_transformation.convert()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\data_transformation.py", line 31, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+  File "D:\Anaconda\lib\site-packages\datasets\dataset_dict.py", line 1297, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1536, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1560, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_writer.py", line 337, in __init__
+    self.stream = self._fs.open(fs_token_paths[2][0], "wb")
+  File "D:\Anaconda\lib\site-packages\fsspec\spec.py", line 1293, in open
+    f = self._open(
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 184, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 306, in __init__
+    self._open()
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 311, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-03-11 21:21:06,534: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:21:06,535: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:21:07,432: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:21:59,575: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:21:59,576: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:22:00,582: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:22:54,220: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:22:54,221: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:22:55,090: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:25:00,243: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:25:00,243: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:25:01,108: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:25:06,392: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 21:25:06,398: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:25:06,405: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:25:06,407: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:25:06,408: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 21:25:12,571: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded with following INFO :
+Connection: close
+Content-Length: 16939794
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "7a853373b924d946d5922aa86f9b22b1b688b8bf9c5bddf3fd911f98bda8c570"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B8B2:1A1868:2D1CC0:3C1143:65EF295B
+Accept-Ranges: bytes
+Date: Mon, 11 Mar 2024 15:55:08 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10233-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1710172507.039966,VS0,VE1300
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 3687666c7c7946b4b3c4b6a77fcfe4f8ecf3fdb1
+Expires: Mon, 11 Mar 2024 16:00:08 GMT
+Source-Age: 1
+
+:]
+[2024-03-11 21:25:13,261: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:25:13,262: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 21:25:13,272: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:25:13,277: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:25:13,279: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:25:13,281: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 21:25:13,290: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:25:13,292: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 21:25:13,301: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:25:13,305: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:25:13,307: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:25:13,313: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 21:25:25,908: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:25:25,909: INFO: main: >>>>>>> Model Trainer Stage Started <<<<<<<:]
+[2024-03-11 21:25:25,915: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:25:25,923: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:25:25,926: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:25:25,926: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 21:26:02,382: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:26:02,383: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:26:03,442: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:26:09,604: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 21:26:09,615: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:26:09,623: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:26:09,626: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:26:09,629: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 21:26:09,631: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 21:26:10,312: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:26:10,313: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 21:26:10,325: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:26:10,330: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:26:10,333: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:26:10,334: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 21:26:10,346: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:26:10,347: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 21:26:10,359: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:26:10,364: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:26:10,367: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:26:10,369: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 21:26:16,486: ERROR: main: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow':]
+Traceback (most recent call last):
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 38, in <module>
+    data_transformation.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_03_Data_Transformation.py", line 13, in main
+    data_transformation.convert()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\data_transformation.py", line 31, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+  File "D:\Anaconda\lib\site-packages\datasets\dataset_dict.py", line 1297, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1536, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1560, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_writer.py", line 337, in __init__
+    self.stream = self._fs.open(fs_token_paths[2][0], "wb")
+  File "D:\Anaconda\lib\site-packages\fsspec\spec.py", line 1293, in open
+    f = self._open(
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 184, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 306, in __init__
+    self._open()
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 311, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'

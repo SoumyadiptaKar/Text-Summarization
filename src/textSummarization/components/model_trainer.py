@@ -4,6 +4,7 @@ from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 from datasets import load_dataset, load_from_disk
 from textSummarization.entity import ModelTrainerConfig
 import torch
+import os
 
 class ModelTrainer:
     def __init__(self, config: ModelTrainerConfig):
@@ -32,8 +33,8 @@ class ModelTrainer:
             weight_decay=0.01, logging_steps=10,
             evaluation_strategy='steps', eval_steps=500, save_steps=1e6,
             gradient_accumulation_steps=16,
-            dataloader_num_workers=8,
-            dataloader_prefetch_factor=8
+            dataloader_num_workers=1,
+            dataloader_prefetch_factor=1
         ) 
 
         trainer = Trainer(model=model_pegasus, args=trainer_args,
