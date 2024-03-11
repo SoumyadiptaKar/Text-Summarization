@@ -2278,3 +2278,327 @@ Traceback (most recent call last):
   File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 311, in _open
     self.f = open(self.path, mode=self.mode)
 OSError: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-03-11 21:32:59,059: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:32:59,060: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:32:59,973: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:33:05,122: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 21:33:05,131: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:33:05,135: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:33:05,139: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:33:05,139: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 21:33:05,139: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 21:33:05,792: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:33:05,792: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 21:33:05,801: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:33:05,805: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:33:05,807: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:33:05,809: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 21:33:05,818: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:33:05,820: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 21:33:05,835: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:33:05,880: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:33:05,927: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:33:05,928: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 21:33:11,588: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:33:11,589: INFO: main: >>>>>>> Model Trainer Stage Started <<<<<<<:]
+[2024-03-11 21:33:11,598: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:33:11,603: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:33:11,605: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:33:11,607: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 21:33:42,071: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 21:33:42,072: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 21:33:42,981: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 21:33:48,449: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 21:33:48,459: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:33:48,463: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:33:48,466: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:33:48,468: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 21:33:48,470: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 21:33:49,103: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:33:49,105: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 21:33:49,116: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:33:49,121: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:33:49,122: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:33:49,125: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 21:33:49,140: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 21:33:49,142: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 21:33:49,151: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 21:33:49,157: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 21:33:49,159: INFO: common: created directory at: artifacts:]
+[2024-03-11 21:33:49,161: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 21:33:54,373: ERROR: main: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow':]
+Traceback (most recent call last):
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 38, in <module>
+    data_transformation.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_03_Data_Transformation.py", line 13, in main
+    data_transformation.convert()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\data_transformation.py", line 31, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+  File "D:\Anaconda\lib\site-packages\datasets\dataset_dict.py", line 1297, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1536, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1560, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_writer.py", line 337, in __init__
+    self.stream = self._fs.open(fs_token_paths[2][0], "wb")
+  File "D:\Anaconda\lib\site-packages\fsspec\spec.py", line 1293, in open
+    f = self._open(
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 184, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 306, in __init__
+    self._open()
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 311, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-03-11 21:57:44,226: INFO: server: Started server process [28276]:]
+[2024-03-11 21:57:44,231: INFO: on: Waiting for application startup.:]
+[2024-03-11 21:57:44,234: INFO: on: Application startup complete.:]
+[2024-03-11 21:57:44,237: INFO: server: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit):]
+[2024-03-11 22:01:34,138: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 22:01:34,140: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 22:01:35,039: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 22:01:40,905: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 22:01:40,915: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 22:01:40,921: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 22:01:40,923: INFO: common: created directory at: artifacts:]
+[2024-03-11 22:01:40,924: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 22:01:46,000: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded with following INFO :
+Connection: close
+Content-Length: 16939794
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "7a853373b924d946d5922aa86f9b22b1b688b8bf9c5bddf3fd911f98bda8c570"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B8B2:1A1868:2D1CC0:3C1143:65EF295B
+Accept-Ranges: bytes
+Date: Mon, 11 Mar 2024 16:31:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10242-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1710174701.455053,VS0,VE331
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f1fca1d5506f6faab43af0a7804af326ab0e3cb7
+Expires: Mon, 11 Mar 2024 16:36:41 GMT
+Source-Age: 0
+
+:]
+[2024-03-11 22:01:46,709: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 22:01:46,713: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 22:01:46,721: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 22:01:46,728: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 22:01:46,730: INFO: common: created directory at: artifacts:]
+[2024-03-11 22:01:46,731: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 22:01:46,744: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 22:01:46,744: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 22:01:46,760: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 22:01:46,764: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 22:01:46,773: INFO: common: created directory at: artifacts:]
+[2024-03-11 22:01:46,777: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 22:01:59,622: INFO: main: >>>>>>> Data Transformation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 22:01:59,623: INFO: main: >>>>>>> Model Trainer Stage Started <<<<<<<:]
+[2024-03-11 22:01:59,633: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 22:01:59,638: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 22:01:59,640: INFO: common: created directory at: artifacts:]
+[2024-03-11 22:01:59,643: INFO: common: created directory at: artifacts/model_trainer:]
+[2024-03-11 22:02:33,655: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.:]
+[2024-03-11 22:02:33,656: INFO: utils: NumExpr defaulting to 8 threads.:]
+[2024-03-11 22:02:34,728: INFO: config: PyTorch version 1.12.1 available.:]
+[2024-03-11 22:02:41,322: INFO: main: >>>>>>> Data Ingestion Stage Started <<<<<<<:]
+[2024-03-11 22:02:41,334: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 22:02:41,340: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 22:02:41,342: INFO: common: created directory at: artifacts:]
+[2024-03-11 22:02:41,344: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-03-11 22:02:41,347: INFO: data_ingestion: File already exists of size: ~ 16543 KB:]
+[2024-03-11 22:02:42,008: INFO: main: >>>>>>> Data Ingestion Stage Completed <<<<<<<
+
+:]
+[2024-03-11 22:02:42,008: INFO: main: >>>>>>> Data Validation Stage Started <<<<<<<:]
+[2024-03-11 22:02:42,019: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 22:02:42,022: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 22:02:42,022: INFO: common: created directory at: artifacts:]
+[2024-03-11 22:02:42,030: INFO: common: created directory at: artifacts/data_validation:]
+[2024-03-11 22:02:42,039: INFO: main: >>>>>>> Data Validation Stage Completed <<<<<<<
+
+:]
+[2024-03-11 22:02:42,039: INFO: main: >>>>>>> Data Transformation Stage Started <<<<<<<:]
+[2024-03-11 22:02:42,055: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 22:02:42,064: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 22:02:42,064: INFO: common: created directory at: artifacts:]
+[2024-03-11 22:02:42,064: INFO: common: created directory at: artifacts/data_transformation:]
+[2024-03-11 22:02:48,484: ERROR: main: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow':]
+Traceback (most recent call last):
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\main.py", line 38, in <module>
+    data_transformation.main()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\Stage_03_Data_Transformation.py", line 13, in main
+    data_transformation.convert()
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\components\data_transformation.py", line 31, in convert
+    dataset_samsum_pt.save_to_disk(os.path.join(self.config.root_dir,"samsum_dataset"))
+  File "D:\Anaconda\lib\site-packages\datasets\dataset_dict.py", line 1297, in save_to_disk
+    dataset.save_to_disk(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1536, in save_to_disk
+    for job_id, done, content in Dataset._save_to_disk_single(**kwargs):
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_dataset.py", line 1560, in _save_to_disk_single
+    writer = ArrowWriter(
+  File "D:\Anaconda\lib\site-packages\datasets\arrow_writer.py", line 337, in __init__
+    self.stream = self._fs.open(fs_token_paths[2][0], "wb")
+  File "D:\Anaconda\lib\site-packages\fsspec\spec.py", line 1293, in open
+    f = self._open(
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 184, in _open
+    return LocalFileOpener(path, mode, fs=self, **kwargs)
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 306, in __init__
+    self._open()
+  File "D:\Anaconda\lib\site-packages\fsspec\implementations\local.py", line 311, in _open
+    self.f = open(self.path, mode=self.mode)
+OSError: [Errno 22] Invalid argument: 'C:/Users/Soumyadipta/Desktop/Text-Summarization/artifacts/data_transformation/samsum_dataset/train/data-00000-of-00001.arrow'
+[2024-03-11 22:03:56,697: INFO: server: Started server process [22996]:]
+[2024-03-11 22:03:56,700: INFO: on: Waiting for application startup.:]
+[2024-03-11 22:03:56,702: INFO: on: Application startup complete.:]
+[2024-03-11 22:03:56,705: INFO: server: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit):]
+[2024-03-11 22:05:17,716: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 22:05:17,721: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 22:05:17,724: INFO: common: created directory at: artifacts:]
+[2024-03-11 22:05:17,726: INFO: common: created directory at: artifacts/model_evaluation:]
+[2024-03-11 22:05:35,963: ERROR: h11_impl: Exception in ASGI application
+:]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "D:\Anaconda\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\Anaconda\lib\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\Anaconda\lib\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\Anaconda\lib\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "D:\Anaconda\lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Anaconda\lib\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "D:\Anaconda\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Anaconda\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Anaconda\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Anaconda\lib\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Anaconda\lib\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "D:\Anaconda\lib\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+  File "D:\Anaconda\lib\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "D:\Anaconda\lib\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\app.py", line 36, in predict_route
+    raise e
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\app.py", line 32, in predict_route
+    text = obj.predict(text)
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\prediction.py", line 14, in predict
+    pipe = pipeline("summarization", model=self.config.model_path, tokenixer = tokenizer)
+  File "D:\Anaconda\lib\site-packages\transformers\pipelines\__init__.py", line 1004, in pipeline
+    tokenizer = AutoTokenizer.from_pretrained(
+  File "D:\Anaconda\lib\site-packages\transformers\models\auto\tokenization_auto.py", line 843, in from_pretrained
+    return tokenizer_class_fast.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "D:\Anaconda\lib\site-packages\transformers\tokenization_utils_base.py", line 2032, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load tokenizer for 'artifacts/model_trainer/pegasus-samsum-model'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'artifacts/model_trainer/pegasus-samsum-model' is the correct path to a directory containing all relevant files for a PegasusTokenizerFast tokenizer.
+[2024-03-11 22:06:19,686: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 22:06:19,691: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 22:06:19,694: INFO: common: created directory at: artifacts:]
+[2024-03-11 22:06:19,698: INFO: common: created directory at: artifacts/model_evaluation:]
+[2024-03-11 22:06:40,502: ERROR: h11_impl: Exception in ASGI application
+:]
+Traceback (most recent call last):
+  File "D:\Anaconda\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "D:\Anaconda\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "D:\Anaconda\lib\site-packages\fastapi\applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\Anaconda\lib\site-packages\starlette\applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\Anaconda\lib\site-packages\starlette\middleware\errors.py", line 184, in __call__
+    raise exc
+  File "D:\Anaconda\lib\site-packages\starlette\middleware\errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\Anaconda\lib\site-packages\starlette\exceptions.py", line 93, in __call__
+    raise exc
+  File "D:\Anaconda\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "D:\Anaconda\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 21, in __call__
+    raise e
+  File "D:\Anaconda\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\Anaconda\lib\site-packages\starlette\routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "D:\Anaconda\lib\site-packages\starlette\routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "D:\Anaconda\lib\site-packages\starlette\routing.py", line 65, in app
+    response = await func(request)
+  File "D:\Anaconda\lib\site-packages\fastapi\routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "D:\Anaconda\lib\site-packages\fastapi\routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\app.py", line 36, in predict_route
+    raise e
+  File "C:\Users\Soumyadipta\Desktop\Text-Summarization\app.py", line 32, in predict_route
+    text = obj.predict(text)
+  File "c:\users\soumyadipta\desktop\text-summarization\src\textSummarization\pipeline\prediction.py", line 14, in predict
+    pipe = pipeline("summarization", model=self.config.model_path, tokenixer = tokenizer)
+  File "D:\Anaconda\lib\site-packages\transformers\pipelines\__init__.py", line 1004, in pipeline
+    tokenizer = AutoTokenizer.from_pretrained(
+  File "D:\Anaconda\lib\site-packages\transformers\models\auto\tokenization_auto.py", line 843, in from_pretrained
+    return tokenizer_class_fast.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "D:\Anaconda\lib\site-packages\transformers\tokenization_utils_base.py", line 2032, in from_pretrained
+    raise EnvironmentError(
+OSError: Can't load tokenizer for 'artifacts/model_trainer/pegasus-samsum-model'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'artifacts/model_trainer/pegasus-samsum-model' is the correct path to a directory containing all relevant files for a PegasusTokenizerFast tokenizer.
+[2024-03-11 22:19:42,177: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 22:19:42,187: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 22:19:42,192: INFO: common: created directory at: artifacts:]
+[2024-03-11 22:19:42,197: INFO: common: created directory at: artifacts/model_evaluation:]
+[2024-03-11 22:21:24,296: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 22:21:24,304: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 22:21:24,309: INFO: common: created directory at: artifacts:]
+[2024-03-11 22:21:24,312: INFO: common: created directory at: artifacts/model_evaluation:]
+[2024-03-11 22:24:42,887: INFO: server: Started server process [32740]:]
+[2024-03-11 22:24:42,891: INFO: on: Waiting for application startup.:]
+[2024-03-11 22:24:42,893: INFO: on: Application startup complete.:]
+[2024-03-11 22:24:42,896: INFO: server: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit):]
+[2024-03-11 22:26:30,969: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 22:26:30,972: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 22:26:30,973: INFO: common: created directory at: artifacts:]
+[2024-03-11 22:26:30,974: INFO: common: created directory at: artifacts/model_evaluation:]
+[2024-03-11 22:43:05,798: INFO: server: Started server process [38388]:]
+[2024-03-11 22:43:05,799: INFO: on: Waiting for application startup.:]
+[2024-03-11 22:43:05,800: INFO: on: Application startup complete.:]
+[2024-03-11 22:43:05,801: INFO: server: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit):]
+[2024-03-11 22:43:36,894: INFO: common: yaml file: config\config.yaml loaded successfully:]
+[2024-03-11 22:43:36,904: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-03-11 22:43:36,905: INFO: common: created directory at: artifacts:]
+[2024-03-11 22:43:36,907: INFO: common: created directory at: artifacts/model_evaluation:]
