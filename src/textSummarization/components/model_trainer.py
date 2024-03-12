@@ -27,6 +27,7 @@ class ModelTrainer:
         #     gradient_accumulation_steps=self.config.gradient_accumulation_steps
         # ) 
 
+        # You can use the above code if you want to. Then you can change the constants directly from params.yaml file.
         trainer_args = TrainingArguments(
             output_dir=self.config.root_dir, num_train_epochs=1, warmup_steps=500,
             per_device_train_batch_size=1, per_device_eval_batch_size=1,
@@ -39,7 +40,7 @@ class ModelTrainer:
 
         trainer = Trainer(model=model_pegasus, args=trainer_args,
                   tokenizer=tokenizer, data_collator=seq2seq_data_collator,
-                  train_dataset=dataset_samsum_pt["test"], 
+                  train_dataset=dataset_samsum_pt["train"], 
                   eval_dataset=dataset_samsum_pt["validation"])
         
         trainer.train()
